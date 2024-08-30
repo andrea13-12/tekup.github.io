@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="images/Logo-Black.svg" alt="Bootstrap" width="120" height="50">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sedes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sani.html">San Isidro</a></li>
+                            <li><a class="dropdown-item disabled" href="#">Miraflores</a></li>
+                            <li><a class="dropdown-item disabled" href="#">Surco</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Blog</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button type="button" class="btn btn-primary">Novedades</button>
+                </form>
+            </div>
+        </div>
+    </nav> <!--Navbar-->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="overlay"></div>
+                <div class="text z-3 position-absolute p-5 rounded-3 text-center  top-50 start-50 translate-middle">
+                    <h1>¡Bienvenidos a Tekup!</h1>
+                    <p> En Tekup, nos enorgullece ofrecer una experiencia gastronómica única donde cada plato es una
+                        celebración de sabores auténticos y frescos. Desde nuestro corazón culinario hasta tu mesa, te
+                        invitamos a explorar y disfrutar de cada bocado con nosotros.</p>
+                </div>
+                <img src="images/carrusel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <div class="text z-3 position-absolute p-5 rounded-3 text-center  top-50 start-50 translate-middle">
+                    <h1>Pasión por la Gastronomía</h1>
+                    <p> Tekup a sido un punto de referencia para los amantes de la buena comida en Lima. Nuestra
+                        historia está marcada por la dedicación a la calidad, la innovación culinaria y el servicio
+                        excepcional.</p>
+                </div>
+                <img src="images/carrusel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <div class="text z-3 position-absolute p-5 rounded-3 text-center  top-50 start-50 translate-middle">
+                    <h1>Características que nos Distinguen</h1>
+                    <p> En Tekup, nos esforzamos por ofrecer más que comida excepcional. Desde nuestro ambiente acogedor
+                        y elegante hasta nuestro servicio atento y personalizado, cada visita se transforma en una
+                        experiencia gastronómica completa que te invita a regresar una y otra vez.</p>
+                </div>
+                <img src="images/carrusel3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div><!--carrusel-->
+
+    <div class="container m-5">
+        <div class="row">
+            <div class="col">
+                <img src="images/chefs.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col chef-text">
+                <h2>"Maestros Culinarios: Conoce a Nuestros Chef Más Creativos y Talentosos</h2>
+                <div class="row">
+                    <h4>Conoce a Nuestra Chef: Gladis Parron </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, officiis est autem sit odit
+                        vel ipsum adipisci unde atque reprehenderit, eius officia quaerat perferendis.</p>
+                </div>
+                <div class="row">
+                    <h4>Conoce a Nuestro Chef: Christian Riso Patron </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, officiis est autem sit odit
+                        vel ipsum adipisci unde atque reprehenderit, eius officia quaerat perferendis.</p>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg w-50">Más Información</button>
+            </div>
+        </div>
+        <div class="row m-5 p-5 info">
+            <div class="col p-4 boxe">
+                <h1>+10</h1>
+                <h3>Años de experiencia</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, assumenda.</p>
+            </div>
+            <div class="col p-4 boxe">
+                <h1>+100</h1>
+                <h3>Personas con nosotros</h3>
+                <p>Aperiam rerum consequatur officiis? Officia corrupti maxime sapiente iusto nulla?</p>
+            </div>
+            <div class="col p-4 boxe-r">
+                <h1>+1890</h1>
+                <h3>Clientes Satisfechos</h3>
+                <p>Eos autem voluptas hic? Praesentium suscipit asperiores excepturi quasi cumque.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class=" p-5 food">
+        <div class="row">
+            <div class="col accordion-g">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Ceviche
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong> Ceviche is perhaps Peru's most famous dish,</strong> consisting of fresh raw
+                                fish
+                                or seafood marinated in freshly squeezed lime or bitter orange juice, with sliced
+                                onions,
+                                chili peppers, and cilantro. The acidity of the citrus juice "cooks" the seafood, giving
+                                it
+                                a unique texture and flavor. It's typically served with sweet potato, corn, and lettuce.
+                                Ceviche represents the coastal influence in Peruvian cuisine and showcases the country's
+                                abundant seafood.
+                            </div>
+                        </div>
+                    </div> <!--CEviche-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Lomo saltado
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lomo Saltado is a popular stir-fry dish that <strong> reflects Peru's Chinese culinary
+                                    influence.</strong> It combines strips of beef (lomo), tomatoes, onions, and peppers
+                                stir-fried in a hot wok with soy sauce and vinegar. It's often served with French fries
+                                and
+                                rice, creating a fusion of flavors and textures that is both hearty and satisfying.
+                            </div>
+                        </div>
+                    </div><!--Lomo Saltado-->
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Anticuchos    
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Anticuchos are skewers of marinated and grilled beef heart,<strong> a dish that dates back to pre-Columbian times and remains a beloved street food in Peru.</strong> The marinade typically includes aji panca (a mild Peruvian chili pepper), garlic, cumin, and vinegar, giving the meat a smoky, savory flavor. Anticuchos are often served with boiled potatoes and a spicy Peruvian sauce called aji sauce.
+                            </div>
+                        </div>
+                    </div> <!--Anticuchos-->
+                </div><!--Acordion-->
+            </div> <!--col -->
+            <div class="col">
+                <img src="images/food.jpg" class="img-fluid" alt="">
+            </div>
+        </div> <!--row-->
+    </div> <!--container-->
+    <footer class="p-5">
+        <div class="container row p-5">
+            <div class="col">
+                <h2 class="mb-3">Nosotros</h2>
+                <p>Sobre Nosotros</p>
+                <p>Nuestro Equipo</p>
+                <p>Costo de Catering</p>
+                <p>Contactanos</p>
+                <p>Consectetur</p>
+                <p>Voluptatibus</p>
+            </div>
+
+            <div class="col">
+                <h2 class="mb-3">Sedes</h2>
+                <p>Menu</p>
+                <p>Corporativos</p>
+                <p>Bodas</p>
+                <p>Eventos</p>
+                <p>Consectetur</p>
+                <p>Voluptatibus</p>
+            </div>
+
+            <div class="col">
+                <h2 class="mb-3">Informacion</h2>
+                <p>Nuestros Eventos</p>
+                <p>Politica de Privacidad</p>
+                <p>Terminos y condiciones</p>
+                <p>Faqs</p>
+            </div>
+
+            <div class="col">
+                <h3 class="mb-3">Subscribete para más novedades</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit vitae, voluptatibus?</p>
+                <form class="container-fluid px-0 py-2">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Escriba su correo"
+                            style="border-radius: 0; border-width: 1px; border-color: #343434a7;" id="email-form">
+                        <span class="input-group-text" id="basic-addon1"
+                            style="border-radius: 0; border-width: 1px; background-color: #34343429; border-color: #343434a7;"><i
+                                class="bi bi-send"></i></span>
+                    </div>
+                </form>
+                <div class="row mt-2" style="display: flow">
+                    <a href="https://www.facebook.com/p/Plant-Food-and-Wine-Lima-100077122522308/" target="_blank"
+                        class="social-link"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/plant-food-and-wine/about/" target="_blank"
+                        class="social-link"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://x.com/" target="_blank" class="social-link"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/pfwlima/?hl=es" target="_blank" class="social-link"><i
+                            class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center derechos">
+            <p class="py-2">© Copyright 2024, All Rights Reserved by Andrea</p>
+        </div>
+    </footer>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
